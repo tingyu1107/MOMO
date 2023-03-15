@@ -6,6 +6,9 @@
 .top{
     background-color: #ececec;
     height: 35px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 .top .box{
     width: 1200px;
@@ -174,7 +177,7 @@ nav a{
     width: 250px;
     margin: 5px;
 }
-.card .top{
+.card .topx{
     background-color: #fc9e85;
     padding: 5px;
     color: white;
